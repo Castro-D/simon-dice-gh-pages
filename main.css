@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+}
+.botones {
+    height: 200px;
+    filter: brightness(0.4);
+    transition: filter 500ms;
+}
+
+#boton-rojo {
+    background-color: red;
+}
+
+#boton-amarillo {
+    background-color: yellow;
+}
+
+#boton-azul {
+    background-color: blue;
+}
+
+#boton-verde {
+    background-color: green;
+}

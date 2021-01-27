@@ -1,0 +1,22 @@
+{
+  "name": "juego-simon-dice",
+  "version": "1.0.0",
+  "description": "juego simon dice en javascript y bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Castro-D/Juego-simon-dice.git"
+  },
+  "author": "Diego Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Castro-D/Juego-simon-dice/issues"
+  },
+  "homepage": "https://github.com/Castro-D/Juego-simon-dice#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}

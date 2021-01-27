@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Simon Game</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <div class="container" id='titulo'>
+        <div class="row">
+          <div class="col">
+            <h1 class='text-center'>SIMON DICE</h1>
+          </div> 
+        </div>
+    </div>
+    <div class="container" id='tablero'>
+        <div class="row">
+          <div class="col-6">
+            <div id='boton-rojo' class='botones'></div>
+          </div>
+          <div class="col-6">
+            <div id='boton-verde' class='botones'></div>
+          </div>
+        </div>
+        <div class='row'>
+            <div class='col-6'>
+                <div id='boton-amarillo' class='botones'></div>
+            </div>
+            <div class='col-6'>
+                <div id='boton-azul' class='botones'></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <div class="alert alert-primary" role="alert" id='informacion-estado'>Click en start para jugar</div>
+          </div>
+          <div class="col-3">
+            <p>Ronda #<strong>-</strong></p>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn btn-primary">Start</button>
+          </div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
