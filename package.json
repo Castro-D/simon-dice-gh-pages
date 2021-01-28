@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Castro-D/Juego-simon-dice/issues"
   },
-  "homepage": "https://github.com/Castro-D/Juego-simon-dice#readme",
+  "homepage": "https://castro-d.github.io/simon-dice-gh-pages/",
   "dependencies": {
     "bootstrap": "^4.5.3"
   }
